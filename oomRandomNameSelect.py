@@ -30,10 +30,10 @@ def randomNameSelector(names):
         if names[randomIndex] == nameSelected:
             with open(filepath,"a") as file:
                 file.write(names[nextIndex] + '\n')
-                print("The board writer for this week is: " + names[nextIndex])
+                print("The writer for this week is: " + names[nextIndex])
         else:
             with open(filepath,"a") as file:
                 file.write(names[randomIndex] + '\n')
-                print("The board writer for this week is: " + names[randomIndex])
+                print("The writer for this week is: " + names[randomIndex])
                 
 randomNameSelector(names)
